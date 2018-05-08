@@ -26,7 +26,7 @@ Hoe.spec 'rubypython' do
   self.readme_file = 'README.rdoc'
   self.extra_rdoc_files = FileList["*.rdoc"].to_a
 
-  self.extra_deps << ['ffi', '~> 1.0, >= 1.0.7']
+  self.extra_deps << ['ffi', '~> 1.0', '>= 1.0.7']
   self.extra_deps << ['blankslate', '>= 2.1.2.3']
 
   self.extra_dev_deps << ['hoe-doofus', '~> 1.0']
